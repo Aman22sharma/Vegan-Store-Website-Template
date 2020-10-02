@@ -117,6 +117,11 @@ header {
     outline: none;
     background-color: rgb(170, 210, 54);
 }
+.top-button:hover{
+    transition: transform .5s ease;
+    transform: scale(1.1);
+
+}
 
 @media (max-width: 720px) {
     #top-nav ul li a {
